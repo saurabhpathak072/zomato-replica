@@ -23,6 +23,7 @@
   "homepage": "https://github.com/saurabhpathak072/zomato-replica#readme",
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "node-sass": "^4.13.1",
     "nodemon": "^2.0.2"
   }
 }

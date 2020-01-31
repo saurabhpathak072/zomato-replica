@@ -9,6 +9,29 @@
         content="Mumbai Restaurants - Menus, Photos, Ratings and Reviews for over 28300 Restaurants in Mumbai. Find the Best Restaurants in Mumbai on Zomato - Mumbai Restaurants"
     />
     <title>Zomato</title>
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://b.zmtcdn.com/images/logo/zomato_logo_2017.png?output-format=webp"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="https://b.zmtcdn.com/images/logo/zomato_logo_2017.png?output-format=webp"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -341,11 +364,256 @@
             </section>
 
             <section class="get-app">
-                
+                <div class="iPhone">
+                    <img src="./images/iphone.png" alt="iphone">
+                </div>
+
+                <div class="get-app-content">
+                    <h5>Get the Zomato App</h5>
+
+                    <p class="see-menu">
+                        See menus and photos for nearby restaurants and bookmarks your Favorite places on the go
+                    </p>
+
+                    <p class="send-link">
+                        We'll send you a link, open it on your phone to download the app
+                    </p>
+
+                    <form action="#">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text app-input">+91</span>
+                            </div>
+
+                            <input type="text" class="form-control app-input"
+                            placeholder="Enter your phone number" aria-describedby="inputGroupPreepend2"
+                            required
+                            >
+                            <button class="btn app-lin-btn" type="button">Text App Link</button>
+                        </div>
+                    </form>
+
+                    <span class="or">OR</span>
+
+                    <form action="#">
+                        <div class="input-group">
+                            
+
+                            <input type="email" class="form-control app-input"
+                            placeholder="Enter your Email ID" aria-describedby="inputGroupPreepend2"
+                            required
+                            >
+                            <button class="btn app-link-btn" type="button">Email App Link</button>
+                        </div>
+                    </form>
+
+                    <div class="app-stores row no-gutters">
+                        <a href="#">
+                            <img src="./images/applestore.png" alt="Apple Store">
+                        </a>
+                        <a href="#">
+                            <img src="./images/googleplay.png" alt="Google Play Store">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="stats">
+                <ul class="stat-list">
+                    <li class="stat">
+                        <span class="value">24</span>
+                        <span class="label">Countries</span>
+                    </li>
+                    <li class="stat">
+                        <span class="value">24</span>
+                        <span class="label">Countries</span>
+                    </li>
+                    <li class="stat">
+                        <span class="value">24</span>
+                        <span class="label">Countries</span>
+                    </li>
+                    <li class="stat">
+                        <span class="value">24</span>
+                        <span class="label">Countries</span>
+                    </li>
+                    <li class="stat">
+                        <span class="value">24</span>
+                        <span class="label">Countries</span>
+                    </li>
+                    <li class="stat">
+                        <span class="value">24</span>
+                        <span class="label">Countries</span>
+                    </li>
+                </ul>
             </section>
         </div>
+        </main>
 
-    </main>
+        <footer>
+            <div class="footer-wrapper">
+                <section class="internationalization">
+                    <div>
+                        <img src="./images/zomato_flat_bg_logo.svg" alt="Logo">
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle"
+                        type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false"
+                        >Mumbai</button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a href="#" class="dropdown-item">Mumbai</a>
+                            <a href="#" class="dropdown-item">Delhi</a>
+                            <a href="#" class="dropdown-item">Bangalore</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="footer-nav">
+                    <div>
+                        <h5 class="footer-title">About Zomato</h5>
+
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Culture</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h5 class="footer-title">For Foodies</h5>
+
+                        <ul>
+                            <li><a href="#">Code of Conduct</a></li>
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#">Veified user</a></li>
+                            <li><a href="#">Blogger Help</a></li>
+                            <li><a href="#">Developers</a></li>
+                            <li><a href="#">Mobile Apps</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="nested-nav restaurant">
+                        <h5 class="footer-title">For Restaurants</h5>
+                        <div>
+                        <ul>
+                            <li><a href="#">Add a Restaurants</a></li>
+                            <li><a href="#">Claim your Listing</a></li>
+                            <li><a href="#">Business App</a></li>
+                            <li><a href="#">Business Owner Guidelines</a></li>
+                            <li><a href="#">Business Blog</a></li>
+                            <li><a href="#">Restaurant widgets</a></li>
+                            <li><a href="#">Products for Business</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="#">Advertise</a></li>
+                            <li><a href="#">Order</a></li>
+                            <li><a href="#">Book</a></li>
+                            <li><a href="#">Trace</a></li>
+                            <li><a href="#">Hyperpure</a></li>
+                            
+                        </ul>
+
+
+                        </div>
+                    </div>
+                </section>
+
+                <section class="footer-nav">
+                    <div class="nested-nav">
+                        <h5 class="footer-title">Countries</h5>
+
+                    <div>
+                        <ul>
+                            <li><a href="#">Australia</a></li>
+                            <li><a href="#">Brazil</a></li>
+                            <li><a href="#">Canada</a></li>
+                            <li><a href="#">Chile</a></li>
+                            <li><a href="#">Czech Republic</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="#">Australia</a></li>
+                            <li><a href="#">Brazil</a></li>
+                            <li><a href="#">Canada</a></li>
+                            <li><a href="#">Chile</a></li>
+                            <li><a href="#">Czech Republic</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="#">Australia</a></li>
+                            <li><a href="#">Brazil</a></li>
+                            <li><a href="#">Canada</a></li>
+                            <li><a href="#">Chile</a></li>
+                            <li><a href="#">Czech Republic</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="#">Australia</a></li>
+                            <li><a href="#">Brazil</a></li>
+                            <li><a href="#">Canada</a></li>
+                            <li><a href="#">Chile</a></li>
+                            <li><a href="#">Czech Republic</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="#">Australia</a></li>
+                            <li><a href="#">Brazil</a></li>
+                            <li><a href="#">Canada</a></li>
+                            <li><a href="#">Chile</a></li>
+                            <li><a href="#">Czech Republic</a></li>
+                        </ul>
+                    </div>
+                    </div>
+                </section>
+
+                <section class="footer-nav social-nav">
+                    <ul class="footer_horiz_list">
+                        <li><a href="https://www.zomato.com/privacy">Privacy</a></li>
+                        <li><a href="https://www.zomato.com/conditions">Terms</a></li>
+                        <li><a href="https://www.zomato.com/api_policy">API Policy</a></li>
+                        <li><a href="https://www.zomato.com/corporate-social-responsibility">CSR</a></li>
+                        <li><a href="https://www.zomato.com/security">Security</a></li>
+                        <li><a href="https://www.zomato.com/directory">Sitemap</a></li>
+
+                    </ul>
+
+                    <ul class="social-container">
+                        <li>
+                            <a target="_blank" href="https://www.facebook.com/zomato">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.instagram.com/zomato/">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://twitter.com/zomato">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <p class="copyright">
+                    Bycontinuing past this page you agree to our
+                    <a href="https://www.zomato.com/conditions" rel="nofollow">Terms of services</a>,
+                    <a href="https://www.zomato.com/cookiepolicy" rel="nofollow">Cookie Policy</a>,
+                    <a href="https://www.zomato.com/privacy" rel="nofollow">Privacy Policy</a>
+                    
+                    and
+                    <a href="https://www.zomato.com/policies" rel="nofollow">Content Policies</a>.
+                    All trademarks are properties of their respective owners. 2008-2019 -
+                    <a href="https://www.zomato.com/nagpur" rel="nofollow">Zomato </a> Media Pvt Ltd.
+                    All rights reserved.
+                </p>
+            </div>
+        </footer>
 </body>
 
 </html>
